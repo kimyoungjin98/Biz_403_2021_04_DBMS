@@ -1,0 +1,10 @@
+-- DataBase Schema MySQL
+-- 물리적 저장공간
+-- Orcale : TableSpace + User 생성하여 
+-- 연동을 하면 사용자 User를 통해서 모든 물리적 DB에alter
+-- 접근이 된다
+-- MySQL : DataBase가 schema가 되고 
+-- 	모든 데이터의 저장공간이 된다
+--	User는 단지 DB SW에 접속하는 
+-- 	사용자 개념이고
+-- 	구체적으로 DB Schema와 연결이 되지 않는다

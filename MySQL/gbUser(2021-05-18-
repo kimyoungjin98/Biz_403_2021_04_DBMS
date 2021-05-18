@@ -1,0 +1,13 @@
+-- gbUser 접속화면
+SHOW DATABASES;
+CREATE DATABASE GuestBook;
+USE GuestBook;
+CREATE TABLE tbl_guest_book(
+gb_seq	BIGINT	AUTO_INCREMENT,
+gb_date	VARCHAR(10)	NOT NULL,
+gb_time	VARCHAR(10)	NOT NULL,
+gb_writer	VARCHAR(30)	NOT NULL,
+gb_email	VARCHAR(30)	NOT NULL,
+gb_password	VARCHAR(125)	NOT NULL,
+gb_content	VARCHAR(2000)	NOT NULL
+);
